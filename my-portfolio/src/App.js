@@ -5,6 +5,7 @@ import Header from "./Components/Header";
 
 import "../src/CSS/index.css";
 import "../src/CSS/about.css";
+import "../src/CSS/loading.css";
 class App extends Component {
   render() {
     return (
