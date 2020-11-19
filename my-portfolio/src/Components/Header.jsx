@@ -4,6 +4,9 @@ import styled from "styled-components";
 const Container = styled.div`
   display: flex;
   justify-content: space-between;
+  background-color: inherit;
+  color: white;
+  margin: 10px;
 `;
 
 const Title = styled.div`

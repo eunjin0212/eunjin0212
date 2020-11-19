@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import styled, { keyframes } from "styled-components";
+import "../CSS/loading.css";
 
 const Container = styled.div`
   width: 100%;
@@ -8,6 +9,7 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: black;
 `;
 const LandomMotto = styled.span`
   text-align: center;
@@ -23,11 +25,11 @@ const ItalicSpan = styled.i`
 
 const LoadingBar = styled.div`
   position: relative;
+  display: flex;
   top: 80px;
-  background-color: white;
-  height: 5px;
+  background-color: inherit;
+  height: 3px;
   width: 300px;
-  text-align: center;
   border-radius: 3px;
 `;
 const move = keyframes`
@@ -37,19 +39,20 @@ const move = keyframes`
   }
   
 	50% {
-    left: 150px;
+    left: 175px;
     opacity: 1;
   }
+
   to {
-    left: 300px;
-    opacity: 0;
+    left: 350px;
+    opacity: -1;
   }
 `;
 const MoveBar = styled.div`
   position: absolute;
   width: 50px;
-  height: 2px;
-  background-color: #81d4fa;
+  height: 3px;
+  background-color: pink;
   animation: ${move} 1.5s linear infinite;
   border-radius: 3px;
 `;
