@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 const Container = styled.div`
   width: 100%;
@@ -21,11 +21,44 @@ const ItalicSpan = styled.i`
   color: #bdc3c7;
 `;
 
+const LoadingBar = styled.div`
+  position: relative;
+  top: 80px;
+  background-color: white;
+  height: 5px;
+  width: 300px;
+  text-align: center;
+  border-radius: 3px;
+`;
+const move = keyframes`
+  from {
+    left: 0px;
+    opacity: 1;
+  }
+  
+	50% {
+    left: 150px;
+    opacity: 1;
+  }
+  to {
+    left: 300px;
+    opacity: 0;
+  }
+`;
+const MoveBar = styled.div`
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  background-color: #81d4fa;
+  animation: ${move} 1.5s linear infinite;
+  border-radius: 3px;
+`;
+
 class Loading extends Component {
   render() {
     return (
       <>
-        <Container>
+        <Container className="container">
           <LandomMotto>
             {
               "The more you gain by pretending,\nThe less you're gonna actually have."
@@ -37,6 +70,9 @@ class Loading extends Component {
             </ItalicSpan>
           </p>
           <ItalicSpan>-Aladdin(2019)-</ItalicSpan>
+          <LoadingBar>
+            <MoveBar></MoveBar>
+          </LoadingBar>
         </Container>
       </>
     );
