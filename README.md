@@ -7,7 +7,7 @@ function iam() {
   return (
     `Hello, My name is ${people.name}.` +
     "\n" +   
-    `I will ${people.job} who is happy learn.`
+    `I will a ${people.job} who is happy learning.`
    );
  }
  iam();
