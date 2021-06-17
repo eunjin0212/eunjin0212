@@ -1,8 +1,25 @@
 {
-  "short_name": "Genie's Web",
-  "name": "Hello, Genie!",
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+    "short_name": "Genie's Web",
+    "name": "Hello, Genie!",
+    "icons": [
+        {
+            "src": "favicon.ico",
+            "sizes": "192x192 512x512",
+            "type": "image/x-icon"
+        },
+        {
+            "src": "favicon.ico",
+            "type": "image/x-icon",
+            "sizes": "192x192"
+        },
+        {
+            "src": "lamp512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
 }
