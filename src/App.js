@@ -1,19 +1,11 @@
-import React from "react";
-import Top from "./Components/Top";
-import About from "./Components/About";
-import Ending from "./Components/Ending";
+import React from 'react'
+import Router from './Components/Router'
 
-import "../src/CSS/index.css";
-import "../src/CSS/font.css";
-import "../src/CSS/ending.css";
+import '../src/CSS/index.css'
+import '../src/CSS/font.css'
+import '../src/CSS/ending.css'
 const App = () => {
-    return (
-        <>
-            <Top />
-            <About />
-            <Ending />
-        </>
-    );
-};
+  return <Router />
+}
 
-export default App;
+export default App
