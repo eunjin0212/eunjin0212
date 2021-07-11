@@ -8,11 +8,6 @@
             "type": "image/x-icon"
         },
         {
-            "src": "favicon.ico",
-            "type": "image/x-icon",
-            "sizes": "192x192"
-        },
-        {
             "src": "lamp512.png",
             "type": "image/png",
             "sizes": "512x512"
