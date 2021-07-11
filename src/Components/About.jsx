@@ -1,19 +1,24 @@
 import React from "react";
 import styled from "styled-components";
+import Header from "./Header";
+import profileImg from "../Assets/profileImg.jpg";
 
 const About = () => {
     return (
-        <AboutWrapper>
-            <ProfileContainer>
-                <ProfilePhoto>
-                    <ProfileImage alt="profile" src="../Assets/profileImgSmile.jpg" />
-                    <ProfileInfo>
-                        <Name>EunJin Kim</Name>
-                        <HashTag>#Genie #ENFP #끈기 #열정</HashTag>
-                    </ProfileInfo>
-                </ProfilePhoto>
-            </ProfileContainer>
-        </AboutWrapper>
+        <>
+            <Header />
+            <AboutWrapper>
+                <ProfileContainer>
+                    <ProfilePhoto>
+                        <ProfileImage alt="profile" src={profileImg} />
+                        <ProfileInfo>
+                            <Name>EunJin Kim</Name>
+                            <HashTag>#Genie #ENFP #끈기 #열정</HashTag>
+                        </ProfileInfo>
+                    </ProfilePhoto>
+                </ProfileContainer>
+            </AboutWrapper>
+        </>
     );
 };
 
