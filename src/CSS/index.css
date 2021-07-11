@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+:after,
+:before {
+    box-sizing: border-box;
+}
+
 body {
     -ms-overflow-style: none;
     font-family: "spoqa han sans,AppleGothic,sans-serif,Helvetica";
