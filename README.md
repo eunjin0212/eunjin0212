@@ -10,3 +10,4 @@
 ![EunJin's github state](https://github-readme-stats.vercel.app/api?username=eunjin0212&show_icons=true&theme=radical)
 
 [![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=eunjin0212&layout=compact&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+[![EunJin's GitHub stats](https://github-readme-stats.vercel.app/api?username=eunjin0212)](https://github.com/eunjin0212/github-readme-stats)
