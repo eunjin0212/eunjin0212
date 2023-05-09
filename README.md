@@ -8,5 +8,5 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=eunjin0212&layout=compact&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
 
 ![EunJin's github state](https://github-readme-stats.vercel.app/api?username=eunjin0212&show_icons=true&theme=radical)
-
+[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=eunjin0212)](https://github.com/anuraghazra/github-readme-stats)
 [![EunJin's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=kimeunjin)](https://github.com/anuraghazra/github-readme-stats)
