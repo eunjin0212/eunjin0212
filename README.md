@@ -4,8 +4,6 @@
 
 [🙋🏻‍♀️ About Me](https://eunjinportfolio.netlify.app/)<br/>
 [💻 My Blog](https://eunjin0212.github.io/)
-
 [![Top Langs](https://github-readme-stats-nine-gilt.vercel.app/api/top-langs/?username=eunjin0212&layout=compact&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
-
 ![EunJin's github state](https://github-readme-stats-nine-gilt.vercel.app/api?username=eunjin0212&show_icons=true&theme=radical)
-![EunJin's wakatime stats](https://github-readme-stats-nine-gilt.vercel.app/api/wakatime?username=eunjin0212)
+![EunJin's wakatime stats](https://github-readme-stats-nine-gilt.vercel.app/api/wakatime?username=eunjin0212&layout=compact)
